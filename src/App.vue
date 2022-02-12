@@ -1,3 +1,3 @@
-<template><router-view /> <router-view name="CesiumContainer" /></template>
+<template><router-view name="CesiumContainer" /><router-view /></template>
 
 <style lang="scss"></style>
