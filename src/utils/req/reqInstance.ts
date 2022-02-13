@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { getResultInterceptor } from './Interceptors'
-export enum reqState {
+export const enum reqState {
   none,
   pending,
   resolved,
