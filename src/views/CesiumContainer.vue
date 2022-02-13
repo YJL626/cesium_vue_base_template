@@ -7,6 +7,10 @@ import 'cesium/Build/Cesium/Widgets/widgets.css'
 import { onMounted } from 'vue'
 
 import { envs } from '@/env/envs'
+import { useParkingStore } from '@/stores/parkingStore'
+const parkingStore = useParkingStore()
+parkingStore.refresh()
+console.log(parkingStore)
 
 const initCesium = () => {
   window.CESIUM_BASE_URL = ''

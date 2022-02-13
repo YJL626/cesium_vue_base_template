@@ -10,10 +10,12 @@
   "dependencies": {
     "@types/cesium": "^1.70.0",
     "@ujl/prettierrc": "^1.0.1",
+    "axios": "^0.25.0",
     "cesium": "^1.90.0",
     "core-js": "^3.6.5",
     "minireset.css": "0.0.7",
     "normalize.css": "^8.0.1",
+    "pinia": "^2.0.11",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
   },
