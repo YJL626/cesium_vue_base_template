@@ -9,7 +9,7 @@ import { onMounted } from 'vue'
 import { envs } from '@/env/envs'
 import { useParkingStore } from '@/stores/parkingStore'
 const parkingStore = useParkingStore()
-parkingStore.refresh()
+parkingStore.init()
 console.log(parkingStore)
 
 const initCesium = () => {

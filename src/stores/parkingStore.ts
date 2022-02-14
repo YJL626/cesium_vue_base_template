@@ -22,6 +22,9 @@ export const useParkingStore = defineStore('parking', {
       } catch {
         this.reqState = reqState.rejected
       }
+    },
+    async init(){
+    this.reqState === reqState.none && await this.refresh()
     }
   }
 })
