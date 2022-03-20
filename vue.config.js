@@ -3,7 +3,7 @@ const webpack = require('webpack')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 const cesiumSource = 'node_modules/cesium/Source'
-const cesiumWorkers = '../Build/Cesium/Workers'https://github.com/YJL626/cesium_vue_base_template/blob/master/vue.config.js
+const cesiumWorkers = '../Build/Cesium/Workers'
 
 module.exports = {
   configureWebpack: {
